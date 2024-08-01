@@ -1,6 +1,6 @@
 NAME = libft.a
 CC = cc
-CFLAGS = -Wall -Werror -Wextra
+CFLAGS = -Wall -Werror -Wextra -arch x86_64
 
 SRCS = \
 	ft_lstiter.c		ft_putnbr_fd.c		ft_strlcpy.c \
@@ -11,7 +11,7 @@ SRCS = \
 	ft_isalpha.c		ft_memccpy.c		ft_strchr.c		\
 	ft_isascii.c		ft_memchr.c			ft_strnstr.c \
 	ft_isdigit.c		ft_memcmp.c			ft_strrchr.c \
-	ft_isprint.c		ft_memcpy.c \
+	ft_isprint.c		ft_memcpy.c 		ft_utoa.c\
 	ft_itoa.c			ft_strtrim.c \
 	ft_memmove.c		ft_strdup.c			ft_substr.c \
 	ft_memset.c			ft_tolower.c \

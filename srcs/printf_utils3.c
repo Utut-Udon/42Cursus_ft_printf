@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   printf_utils3.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fujitaharuki <fujitaharuki@student.42.f    +#+  +:+       +#+        */
+/*   By: hfujita <hfujita@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/25 22:58:15 by fujitaharuk       #+#    #+#             */
-/*   Updated: 2024/06/25 23:21:53 by fujitaharuk      ###   ########.fr       */
+/*   Updated: 2024/08/01 18:57:02 by hfujita          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

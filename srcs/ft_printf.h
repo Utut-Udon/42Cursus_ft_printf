@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fujitaharuki <fujitaharuki@student.42.f    +#+  +:+       +#+        */
+/*   By: hfujita <hfujita@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/13 20:04:22 by fujitaharuk       #+#    #+#             */
-/*   Updated: 2024/06/25 23:21:16 by fujitaharuk      ###   ########.fr       */
+/*   Updated: 2024/08/01 17:53:05 by hfujita          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define FT_PRINTF_H
 
 # include "../srcs/libft/libft.h"
+# include <errno.h>
 # include <stdarg.h>
 
 int		treat_format(va_list args, char format);

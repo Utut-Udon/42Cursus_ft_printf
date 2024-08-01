@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fujitaharuki <fujitaharuki@student.42.f    +#+  +:+       +#+        */
+/*   By: hfujita <hfujita@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/13 19:58:53 by fujitaharuk       #+#    #+#             */
-/*   Updated: 2024/06/26 00:07:56 by fujitaharuk      ###   ########.fr       */
+/*   Updated: 2024/08/01 18:55:59 by hfujita          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,8 +57,11 @@ int	ft_printf(const char *str, ...)
 	va_list	args;
 	int		ret;
 
+	errno = 0;
 	va_start(args, str);
 	ret = print_cnt(args, str);
 	va_end(args);
+	if (errno != 0)
+		return (-1);
 	return (ret);
 }
