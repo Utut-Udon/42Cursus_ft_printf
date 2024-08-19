@@ -6,7 +6,7 @@
 /*   By: hfujita <hfujita@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/13 19:58:53 by fujitaharuk       #+#    #+#             */
-/*   Updated: 2024/08/01 18:55:59 by hfujita          ###   ########.fr       */
+/*   Updated: 2024/08/19 13:18:06 by hfujita          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,7 @@ int	print_cnt(va_list args, const char *str)
 {
 	int	i;
 	int	len;
+	int	tmp;
 
 	i = 0;
 	len = 0;
@@ -43,10 +44,13 @@ int	print_cnt(va_list args, const char *str)
 		if (str[i] == '%')
 		{
 			i++;
-			len += treat_format(args, str[i]);
+			tmp = treat_format(args, str[i]);
 		}
 		else
-			len += printf_putchar(str[i]);
+			tmp = printf_putchar(str[i]);
+		if (tmp == -1)
+			return (-1);
+		len += tmp;
 		i++;
 	}
 	return (len);

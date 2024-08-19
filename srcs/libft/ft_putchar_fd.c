@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fujitaharuki <fujitaharuki@student.42.f    +#+  +:+       +#+        */
+/*   By: hfujita <hfujita@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/10 17:17:01 by fujitaharuk       #+#    #+#             */
-/*   Updated: 2024/04/10 17:17:29 by fujitaharuk      ###   ########.fr       */
+/*   Updated: 2024/08/19 16:30:37 by hfujita          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

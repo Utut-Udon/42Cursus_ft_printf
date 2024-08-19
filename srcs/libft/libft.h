@@ -6,7 +6,7 @@
 /*   By: hfujita <hfujita@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/10 17:47:55 by fujitaharuk       #+#    #+#             */
-/*   Updated: 2024/08/01 17:42:50 by hfujita          ###   ########.fr       */
+/*   Updated: 2024/08/19 14:06:24 by hfujita          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,6 +65,8 @@ char	*ft_strtrim(char const *s, char const *set);
 char	**ft_split(char const *s, char c);
 char	*ft_itoa(int n);
 char	*ft_utoa(unsigned int n);
+char	*ft_htoa(unsigned int n, const char format);
+char	*ft_ptoa(unsigned long long n);
 void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char const *s, int fd);
 void	ft_putendl_fd(char const *s, int fd);
